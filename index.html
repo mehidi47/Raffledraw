@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="mesh-bg form-holder">
+        <div class="container">
+            <form action="#">
+                <h2>Join the contest</h2>
+
+                <div class="fild">
+                    <input type="text" id="f-name" name="f-name" placeholder=" " required=""><label for="f-name">First
+                        name</label>
+                </div>
+                <div class="row">
+                    <div class="fild">
+                        <input type="text" id="phone" name="phone" placeholder=" " required=""><label for="phone">Phone
+                            number</label>
+                    </div>
+
+                    <div class="select">
+                        <label>Current Oparator</label>
+                        <select id="expMonth" name="formdata[exp_m]" data-alert_name="Expiration Month"
+                            autocomplete="cc-exp-month" validate_type="noop">
+                            <option>AT&T</option>
+                            <option>T-Mobile</option>
+                            <option>MetroPCS</option>
+                            <option>Boost</option>
+                            <option>Verizon</option>
+                            <option>Others</option>
+
+                        </select>
+                    </div>
+                </div>
+                <button>Register</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
